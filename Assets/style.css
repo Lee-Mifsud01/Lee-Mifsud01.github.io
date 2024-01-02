@@ -1,5 +1,5 @@
 body{
-    background-image: url(images/view-illuminated-neon-gaming-keyboard-setup-controller.jpg);
+    background-image: url(images/Setup1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:100% 100%;
@@ -14,25 +14,3 @@ header{
     text-align:right;
 }
 
-/*Products css*/
-.mh400{
-    height: 300px;
-}
-
-.cropImage{
-    position: relative;
-    top: 100%;
-    transform: translateY(-20%); 
-}
-
-.cropImage2{
-    position: relative;
-    top: 100%;
-    transform: translateY(-25%); 
-}
-
-.cropImage3{
-    position: relative;
-    top: 100%;
-    transform: translateY(-40%); 
-}

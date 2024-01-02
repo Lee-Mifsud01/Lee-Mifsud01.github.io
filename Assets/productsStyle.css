@@ -1,0 +1,46 @@
+body{
+    background-image: url(images/);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    min-block-size: 100%;
+    min-inline-size: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    display: grid;
+}
+
+header{
+    text-align:right;
+}
+
+.mh400{
+    height: 400px;
+}
+
+.mhProducts{
+    height: 400px;
+}
+
+.h800{
+    max-height: 800px;
+}
+
+
+.cropImage{
+    position: relative;
+    top: 50%;
+    transform: translateY(-20%); 
+}
+
+.cropImage2{
+    position: relative;
+    top: 50%;
+    transform: translateY(-25%); 
+}
+
+.cropImage3{
+    position: relative;
+    top: 50%;
+    transform: translateY(-40%); 
+}
