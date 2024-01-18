@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    background-image: url(images/AboutUs.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    min-block-size: 100%;
+    min-inline-size: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    display: grid;
+}
+
+.textAlign {
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    color:white;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.btn-hover:hover{
+    background-color: #32991f;
+}
+

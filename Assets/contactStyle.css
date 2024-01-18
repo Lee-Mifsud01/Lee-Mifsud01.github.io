@@ -9,3 +9,7 @@ body{
     box-sizing: border-box;
     display: grid;
 }
+
+.btn-hover:hover{
+    background-color: #32991f;
+}

@@ -61,3 +61,7 @@ button:hover {
     top: 50%;
     transform: translateY(-40%); 
 }
+
+.btn-hover:hover{
+    background-color: #32991f;
+}
