@@ -2,6 +2,7 @@ function addedToCart(){
     alert("Item added to cart")
 }
 
+//validation
 
 function validateForm(){
     let error = "";
