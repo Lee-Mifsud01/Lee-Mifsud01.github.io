@@ -10,6 +10,7 @@
 </head>
 <body>
   <header>
+    <!--Navigation menu-->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -38,10 +39,10 @@
   </header>
 
   <br><br><br><br><br><br><br><br><br><br>
-  
+  <!--Contact form-->
   <main class="my-4">
     <form 
-    action="mailto:asdf@qwerty.com"
+    action="mailto:leemifsud01@gmail.com"
     method="POST"
     enctype="text/plain"
     onsubmit="return validateForm();">
@@ -52,7 +53,7 @@
                 <div class="col-8">
                     <div class="card">
                         <div class="card-header bg-primary-subtle">
-                            <b>Contact us form</b>
+                          <b>Contact us form</b>
                         </div>
                         <div class="card-body bg-primary-subtle">
                             <label class="form-label" for="firstNameInput">First Name</label>
@@ -66,24 +67,26 @@
 
                             <label class="form-label" for="messageInput">Message</label>
                             <textarea type="text" id="messageInput" name="message" placeholder="I need help with an order..." class="form-control mb-3"></textarea>
+                            
                             <div class="row mt-3">
                               <div class="col-2"></div>
                               <div class="col-8 px-0">
-                                  <div class="container-fluid">
-                                      <div class="row mx-0 px-0">
-                                          <div class="col-6 mx-0 ps-0 pe-1">
-                                              <button type="submit" class="btn btn-success w-100">Send message</button>
-                                          </div>
-                                          <div class="col-6 mx-0 pe-0 ps-1">
-                                              <button onclick="resetErrors()" type="reset" class="btn btn-danger w-100">Reset form</button>
-                                          </div>
-                                      </div>
+                                <div class="container-fluid">
+                                  <div class="row mx-0 px-0">
+                                    <!--Buttons-->
+                                    <div class="col-6 mx-0 ps-0 pe-1">
+                                        <button type="submit" class="btn btn-success w-100">Send message</button>
+                                    </div>
+                                    <div class="col-6 mx-0 pe-0 ps-1">
+                                        <button onclick="resetErrors()" type="reset" class="btn btn-danger w-100">Reset form</button>
+                                    </div>
                                   </div>
+                                </div>
                               </div>
-                          </div>
+                            </div>
                           <div class="col-2">
                             <ul id="errorList"></ul>
-                        </div>
+                          </div>
                       </div>
                   </form>
               </main>
