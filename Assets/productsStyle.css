@@ -24,7 +24,7 @@ header{
 .h800{
     max-height: 800px;
 }
-
+/*Buttons*/
 button {
     transition: all .5s ease;
     color: #fff;
@@ -44,6 +44,7 @@ button:hover {
     background-color: #32991F;
 }
 
+/*Cropping of images*/
 .cropImage{
     position: relative;
     top: 50%;
@@ -62,6 +63,7 @@ button:hover {
     transform: translateY(-40%); 
 }
 
+/*Button hover for bootstrap*/
 .btn-hover:hover{
     background-color: #32991f;
 }
